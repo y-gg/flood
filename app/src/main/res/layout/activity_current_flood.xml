@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
+    <include layout="@layout/toolbar"></include>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="汛情概要"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/flood_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+    </ListView>
+
+</LinearLayout>
